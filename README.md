@@ -1,11 +1,25 @@
 # Brute-Force-Attack-Detection-Using-Deep-Learning
 
-This repository contains a deep learning model designed to detect brute force attacks. The project aims to leverage the power of deep learning to analyze network traffic patterns and identify potential brute force attacks in real-time.
+This repository contains a unsupervised machine learning algorithm designed to detect brute force attacks. The project aims to leverage the power of unsupervised machine learning algorithm to analyze network traffic patterns and identify potential brute force attacks in real-time.
 
 ## Overview
 
-The primary goal of this project is to develop a robust and efficient system capable of identifying brute force attacks on network systems. By utilizing deep learning techniques, we aim to enhance the accuracy and speed of attack detection, thereby improving overall network security.
+The primary goal of this project is to develop a robust and efficient system capable of identifying brute force attacks on network systems. By utilizing unsupervised machine learning algorithm techniques, we aim to enhance the accuracy and speed of attack detection, thereby improving overall network security.
 
+When an abnormality is detected, the model sends an alert, allowing the administrator to take appropriate action. The administrator can block the attacker's IP address, making it a reliable option for real-world brute-force attack detection.
+
+## Key Files
+
+### Python Files
+
+- `keys.py`: Contains the twilio keys used for alert messaging mechanism.
+- `main.py`: The main script that runs the unsupervised machine learning algorithm for detecting brute force attacks.
+
+### CSV Files
+
+- `train.csv`: Contains training data for the nsupervised machine learning model.
+- `test.csv`: Contains test data to evaluate the performance of the trained model.
+- 
 ## Installation
 
 To get started with the project, follow these steps:
