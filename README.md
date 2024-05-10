@@ -19,7 +19,7 @@ When an abnormality is detected, the model sends an alert, allowing the administ
 
 - `train.csv`: Contains training data for the unsupervised machine learning model.
 - `test.csv`: Contains test data to evaluate the performance of the trained model.
-- 
+  
 ## Installation
 
 To get started with the project, follow these steps:
