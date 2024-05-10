@@ -1,6 +1,6 @@
-# Brute-Force-Attack-Detection-Using-Deep-Learning
+# Brute-Force-Attack-Detection-Using-Machine-Learning
 
-This repository contains a unsupervised machine learning algorithm designed to detect brute force attacks. The project aims to leverage the power of unsupervised machine learning algorithm to analyze network traffic patterns and identify potential brute force attacks in real-time.
+This repository contains a unsupervised machine learning algorithm designed to detect brute force attacks. The project aims to leverage the power of unsupervised machine learning model to analyze network traffic patterns and identify potential brute force attacks in real-time.
 
 ## Overview
 
@@ -13,11 +13,11 @@ When an abnormality is detected, the model sends an alert, allowing the administ
 ### Python Files
 
 - `keys.py`: Contains the twilio keys used for alert messaging mechanism.
-- `main.py`: The main script that runs the unsupervised machine learning algorithm for detecting brute force attacks.
+- `main.py`: The main script that runs the unsupervised machine learning model for detecting brute force attacks.
 
 ### CSV Files
 
-- `train.csv`: Contains training data for the nsupervised machine learning model.
+- `train.csv`: Contains training data for the unsupervised machine learning model.
 - `test.csv`: Contains test data to evaluate the performance of the trained model.
 - 
 ## Installation
@@ -26,11 +26,11 @@ To get started with the project, follow these steps:
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/sakshay2318/Brute-Force-Attack-Detection-Using-Deep-Learning.git
+git clone https://github.com/sakshay2318/Brute-Force-Attack-Detection-Using-Machine-Learning.git
 ```
 2. Navigate to the project directory:
 ```bash
-cd Brute-Force-Attack-Detection-Using-Deep-Learning
+cd Brute-Force-Attack-Detection-Using-Machine-Learning
 ```
 3. Install required Python packages:
 ```bash
